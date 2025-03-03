@@ -77,13 +77,14 @@ ul {
 .link-logo:hover,
 .link-logo:focus,
 .link-dark:hover,
-.link-dark:focus,
-.btn:hover,
-.btn:focus 
+.link-dark:focus
+
 {
     color: #404bbf;
 }
 
+
+button:hover, button:focus {color: #404bbf;}
 .hero-image {
     background-color: #2e2f42;
 
@@ -167,3 +168,5 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.section-two > .section-two-list {color: #FFFFFF}
