@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway" sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: white;
     color: #434455;
     font-size: 16px;
@@ -9,7 +9,7 @@ body {
 h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -18,7 +18,8 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
+    text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -40,6 +41,10 @@ p {
 }
 
 .accent {
+    color: #2e2f42;
+}
+
+.accent-footer {
     color: #4d5ae5;
 }
 
@@ -51,11 +56,11 @@ ul {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
 .link {
@@ -65,13 +70,18 @@ ul {
 
 .link:hover,
 .link:focus,
+.nav-panel:hover,
+.nav-panel:focus,
 .accent:hover,
 .accent:focus,
 .link-logo:hover,
 .link-logo:focus,
 .link-dark:hover,
-.link-dark:focus {
-    color: #4D5AE5;
+.link-dark:focus,
+.btn:hover,
+.btn:focus 
+{
+    color: #404bbf;
 }
 
 .hero-image {
@@ -79,12 +89,14 @@ ul {
 
 }
 
+
+
 .section-one {
 
-    margin-top: 120;
-    margin-bottom: 120;
-    margin-left: 156;
-    margin-right: 156;
+    margin-top: 120px;
+        margin-bottom: 120px;
+        margin-left: 156px;
+        margin-right: 156px;
 
 }
 
@@ -95,10 +107,10 @@ ul {
 
 .section-three {
 
-    margin-top: 120;
-    margin-bottom: 120;
-    margin-left: 156;
-    margin-right: 156;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 
@@ -108,6 +120,7 @@ footer {
 }
 
 .btn {
+    font-family: "Roboto", sans-serif;
     border-radius: 4px;
     width: 169px;
     height: 56px;
@@ -125,10 +138,10 @@ footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    color: #4d5ae5;
 }
 
 
@@ -138,4 +151,19 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+}
+
+.contacts {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.nav-panel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
