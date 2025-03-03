@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto", "Raleway" sans-serif;
+        background-color: white;
+        color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+}
+
+h1 {font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;}
+h2 {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;}
+h3 {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+ul {
+    list-style-type: none;
+}
+
+.link {
+    
+    text-decoration: none;
+}
+
+.hero-image {
+    background-color:#2e2f42;
+    width: 1440px;
+        height: 600px;
+}
+.section-one {
+    width: 1128px;
+        height: 104px;
+        margin-top: 120;
+            margin-bottom: 120;
+            margin-left: 156;
+            margin-right: 156;
+
+}
+.section-two {
+    background: #f4f4fd;
+    width: 1440px;
+        height: 732px;
+}
+.section-three {
+    width: 1128px;
+        height: 1000px;
+        margin-top: 120;
+        margin-bottom: 120;
+        margin-left: 156;
+        margin-right: 156;
+}
+header {width: 1440px;
+    height: 72px;
+}
+footer {
+    width: 1440px;
+        height: 312px;
+        background-color: #2e2f42;
+}
