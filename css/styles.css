@@ -6,7 +6,7 @@ body {
     line-height: 1.5;
 }
 
-h1 {
+.header1 {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -15,7 +15,7 @@ h1 {
     color: #fff;
 }
 
-h2 {
+.header2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -25,7 +25,7 @@ h2 {
     color: #2e2f42;
 }
 
-h3 {
+.header3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -33,19 +33,26 @@ h3 {
     color: #2e2f42;
 }
 
-p {
-    font-weight: 400;
+.section-one-p {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+    letter-spacing: 0.02em;}
+.section-two-p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+.section-three-p {font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+
 
 .accent {
     color: #2e2f42;
 }
 
 .accent-footer {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 ul {
@@ -84,7 +91,7 @@ ul {
 }
 
 
-button:hover, button:focus {color: #404bbf;}
+.btn:hover, .btn:focus {color: #404bbf;}
 .hero-image {
     background-color: #2e2f42;
 
@@ -169,5 +176,4 @@ footer {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.section-two > .section-two-list {color: #FFFFFF}
+.section-two-list {color: #FFFFFF}
