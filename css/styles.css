@@ -59,6 +59,14 @@ a {
     background-color: #2e2f42;
 }
 
+.section-two {
+    background-color: #F4F4FD;
+}
+
+.section-two-list {
+    background-color: #FFFFFF;
+}
+
 .section-three {
     background-color: #f4f4fd;
 }
@@ -123,6 +131,7 @@ a {
 
 .btn:hover,
 .btn:focus {
+    background-color: #404BBF;
     color: #404bbf;
 }
 
@@ -142,18 +151,3 @@ background-color: #2e2f42;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
