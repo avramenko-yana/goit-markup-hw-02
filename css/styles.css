@@ -60,11 +60,11 @@ a {
 }
 
 .section-two {
-    background-color: #F4F4FD;
+    background-color: #f4f4fd;
 }
 
 .section-two-list {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
 .section-three {
@@ -131,8 +131,8 @@ a {
 
 .btn:hover,
 .btn:focus {
-    background-color: #404BBF;
-    color: #404bbf;
+    background-color: #404bbf;
+    
 }
 
 .page-footer {
