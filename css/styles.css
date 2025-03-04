@@ -6,7 +6,7 @@ body {
     line-height: 1.5;
 }
 
-.header1 {
+.header-one {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -15,7 +15,7 @@ body {
     color: #fff;
 }
 
-.header2 {
+.header-two {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -25,7 +25,7 @@ body {
     color: #2e2f42;
 }
 
-.header3 {
+.header-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
